@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student portal</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .div {
+            margin-top: 10%;
+            text-align: center;
+        }
+
+        .container {
+            padding-bottom: 2%;
+        }
+
+        .wording {
+            margin-left: 6vw;
+        }
+
+        input {
+            width: 40vw;
+            height: 6vh;
+        }
+
+        .button {
+            border: 2px solid;
+            /* padding: 0px 60px 0px 60px; */
+            text-decoration: none;
+            border: 2px solid gray;
+            display: inline-block;
+            width: 19.8vw;
+            padding: 7px 0px;
+        }
+
+        .button:hover {
+            background-color: rgb(203, 157, 247);
+            color: white
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="div">
+
+        <header>
+            <figure>
+                <img class="head" height="80px" width="120px" src="../images/student img.png" alt="student portal logo">
+                <figcaption>Students portal</figcaption>
+            </figure>
+        </header>
+
+        <body>
+            <div class="div1 container">
+                <a class="button login" href="">login</a>
+                <a class="button createpass" href="">creata password</a>
+            </div>
+            <form action="">
+                <div class="2 container">
+                    <input type="tel" placeholder="CNIC *">
+                    <br><span class="wording">kindly provide the CNIC number used during SMIT course registration</span>
+                </div>
+                <div class="3 container">
+                    <!-- <fieldset> -->
+                    <!-- <legend>password</legend> -->
+                    <input type="password" placeholder="password *">
+                    <!-- </fieldset> -->
+                </div>
+                <div class="4 container">
+                    <input type="button" value="LOGIN">
+                </div>
+            </form>
+
+        </body>
+    </div>
+
+
+</body>
+
+</html>

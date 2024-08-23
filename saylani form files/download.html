@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download id card</title>
+    <style>
+        form * {
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 2px solid;
+            padding: 15vh 10px;
+            margin: 5vh 10vw;
+            height: 10vh;
+            background-image: url(../images/header\ bg\ img.png);
+            background-size: 95%;
+            background-position: left;
+        }
+
+        .hfiles:hover {
+            color: blue;
+            background-color: rgb(198, 198, 244);
+        }
+
+        .div1 * {
+            margin: 3px;
+
+        }
+
+        .links:hover {
+            border: 4px solid red;
+            background-color: rgb(237, 214, 214);
+        }
+
+        .div2 {
+            text-align: center;
+        }
+
+        .div2 * {
+            margin: auto;
+        }
+
+        .flinks {
+            margin: 10px;
+        }
+
+        .flinks:hover {
+            border: 3px solid red;
+            background-color: rgb(237, 214, 214);
+        }
+
+        .flinks:active {
+            background-color: gray;
+        }
+
+        .flinks:visited {
+            color: rgb(68, 0, 255);
+        }
+
+        .dflinks {
+            border: 3px solid;
+            border-radius: 10px;
+            padding: 4px 10px;
+        }
+
+        .imgflink {
+            position: relative;
+            right: 2px;
+            top: 3px;
+        }
+
+
+        #p {
+            color: blue;
+            /* margin-left:3% ; */
+        }
+
+        #hanzala {
+            margin-top: 10px;
+            background-color: rgb(153, 190, 243);
+        }
+
+        input {
+            padding: 1%;
+            /* padding-bottom: 0.5%; */
+            /* padding-left: ; */
+            width: 30.8%
+        }
+
+        .form {
+            text-align: center;
+
+        }
+        .flinks2{
+            border: 3px solid red;
+            background-color: rgb(237, 214, 214);
+      
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="div1">
+            <a href="https://www.facebook.com/saylani.smit"><img class="links" src="../images/facebook.png"
+                    alt="facebook" height="30vh"></a>
+            <a href="https://www.instagram.com/saylanimassittraining"><img class="links" src="../images/insta.png"
+                    alt="insta" height="27VH"></a>
+            <a href="https://www.youtube.com/@SaylaniMassITTraining"><img class="links" src="../images/youtube.png"
+                    alt="youtube" height="30VH"></a>
+        </div>
+        <div class="div2">
+            <img src="../images/sform.jfif" alt="saylani logo pic" height="100px" width="250vw">
+            <h1>SAYLANI FORM-SMIT</h1>
+            <p>services -education-registration</p>
+            <div>
+                <a class="flinks" href="../saylani form.html">Registration</a>
+                <a class="flinks flinks2" href="../saylani form files/download.html">Download ID card</a>
+                <a class="flinks" href="../saylani form files/result.html">Result</a>
+            </div>
+        </div>
+        <div class="div3">
+            <a class="flinks dflinks" href="https://student.saylaniwelfare.com/"><img class="imgflink"
+                    src="../images/student portal.png" height="15px" width="19px">student portal</a>
+        </div>
+    </header>
+    <hr>
+    <form action="">
+        <div class="form">
+            <p id="p">CNIC(which you providing during form submision)</p>
+            <div>
+                <input class="num" type="tel" placeholder="CNIC">
+            </div>
+            <input id="hanzala" type="submit" value="submit">
+        </div>
+    </form>
+
+
+
+</body>
+
+</html>
